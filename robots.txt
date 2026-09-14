@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.danilorainha.com/sitemap.xml
+Sitemap: https://danilorainha.com/sitemap.xml
