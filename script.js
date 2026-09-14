@@ -54,6 +54,8 @@
         `Olá, Danilo! Vim pelo site e gostaria de saber mais sobre o atendimento online.\n\n` +
         `Nome: ${nome}\nPreferência de horário: ${horario}\n\n` +
         `Gostaria de conversar sobre: ${mensagem}`;
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({event: 'contato_whatsapp', metodo: 'formulario'});
       window.open('https://wa.me/5511926018646?text=' + encodeURIComponent(text), '_blank', 'noopener,noreferrer');
     });
   }
