@@ -83,10 +83,11 @@ if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').m
   <a href="#inicio" aria-label="Danilo Rainha — Psicanalista">
     <img class="logo-header" src="assets/logo-horizontal-preto.png" alt="Danilo Rainha — Psicanalista" width="346" height="101">
   </a>
-  <button class="menu" type="button" aria-label="Abrir menu" aria-expanded="false">☰</button>
-  <nav class="nav" aria-label="Navegação principal">
-    <a href="#por-que">Por que começar?</a>
-    <a href="#por-onde">Por onde começar?</a>
+  <button class="menu" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">☰</button>
+  <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+    <a href="#por-onde">Por onde começar</a>
+    <a href="#psicanalise">Por que psicanálise</a>
+    <a href="#processo">Como funciona</a>
     <a href="#sobre">Sobre mim</a>
     <a href="#duvidas">Dúvidas</a>
   </nav>
